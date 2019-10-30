@@ -6,6 +6,8 @@ This app allows the user to create and "eat" burgers using MySQL, Node, Express,
 
 ![burger home](burger.png)
 
+## Demo
+Navigate to [Demo](https://krabyburger.herokuapp.com/) hosted on [Heroku](https://www.heroku.com/).
 
 ## Setup
 ```
@@ -25,3 +27,4 @@ npm install body-parser
 * Node.js
 * MySQL Workbench
 * Heroku and JAWSDb add-on.
+
