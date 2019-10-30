@@ -1,10 +1,27 @@
-# Eat-Da-Burger
+# Eat Da Burger
+Week 14- Homework (Node Express Handlebars)
+
+## Overview
+This app allows the user to create and "eat" burgers using MySQL, Node, Express, Handlebars and ORM.  The user can enter a burger into the text box and that burger will then appear in a list of available burgers. The user can then "eat" the burger which sends it into a list of "devoured burgers". Lastly, the burger can be fully deleted from the app. 
+
+![burger home](burger.png)
 
 
-* Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
+## Setup
+```
+npm init
+npm install
+npm install mysql
+npm install express-handlebars
+npm install body-parser
 
-* Whenever a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
+```
 
-* Each burger in the waiting area also has a `Devour it!` button. When the user clicks it, the burger will move to the right side of the page.
 
-* Your app will store every burger in a database, whether devoured or not.
+## Technologies Used
+* HTML
+* CSS
+* Javascript
+* Node.js
+* MySQL Workbench
+* Heroku and JAWSDb add-on.
